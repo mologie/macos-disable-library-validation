@@ -4,12 +4,15 @@ set -e
 KEXT=DisableLibraryValidation.kext
 KEXTDPREFIX=
 
+cd "$(dirname $0)"
+
 case "$1" in
 "")
 	if [ "$(id -u)" -eq 0 ]; then
 		echo "Please don't run me as root. I want to build as normal user."
 		exit 1
 	fi
+	rm -rf build
 	xcodebuild -configuration Release build
 	echo "Done building. I'll now ask for your user password to install the kernel extension."
 	sudo $0 install
