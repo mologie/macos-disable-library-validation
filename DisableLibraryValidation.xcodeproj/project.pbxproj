@@ -236,6 +236,7 @@
 		A7126A521F1A4034008339E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = DisableLibraryValidation/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MODULE_NAME = com.mologie.DisableLibraryValidation;
@@ -251,6 +252,7 @@
 		A7126A531F1A4034008339E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = DisableLibraryValidation/Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MODULE_NAME = com.mologie.DisableLibraryValidation;
