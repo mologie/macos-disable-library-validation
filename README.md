@@ -34,4 +34,4 @@ This software comes with no support or implied warrenty. I do not accept bug rep
 Legal
 -----
 
-Copyright 2017 Oliver Kuckertz; released under the [MIT license](LICENSE). Please contact me privately via the e-mail address listed on my GitLab profile for discussing legal issues.
+Copyright 2017 Oliver Kuckertz; released under the [MIT license](LICENSE). Please contact me privately via the e-mail address listed on my GitHub profile for discussing legal issues.
