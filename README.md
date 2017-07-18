@@ -1,5 +1,8 @@
+
 DisableLibraryValidation
 ========================
+
+If you are here, because you wish to fix issues with your NVIDIA web driver, please head over to [the new NVWebDriverLibValFix page](https://github.com/mologie/NVWebDriverLibValFix/releases). This software does more harm than good and is obsolete for fixing NVIDIA web driver issues.
 
 **Beware:** This software intentionally weakens the security of your Mac and may turn your machine into a fire-breathing dragon. You should not install it.
 
@@ -8,7 +11,6 @@ With that out of the way: This software installs a small kernel patch at boot-ti
 You don't want Library Validation to be disabled on your Mac. However, if it were to be disabled:
 
 * Processes can load arbitrary libraries
-* The NVIDIA web driver won't break iBooks and other software that accesses its libraries directly
 * root becomes more powerful (may load arbitrary libraries into any process depending on SIP status)
 * Security is weakened, because some user processes could be fooled to run additional code without root's explicit request, which may grant access to daemons that depend on Library Validation for secure validation of code identity.
 
