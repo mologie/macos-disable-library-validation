@@ -2,7 +2,7 @@
 DisableLibraryValidation
 ========================
 
-If you are here, because you wish to fix issues with your NVIDIA web driver, please head over to [the new NVWebDriverLibValFix page](https://github.com/mologie/NVWebDriverLibValFix/releases). This software does more harm than good and is obsolete for fixing NVIDIA web driver issues.
+If you are here, because you wish to fix issues with your NVIDIA web driver, please head over to [the new NVWebDriverLibValFix page](https://github.com/mologie/NVWebDriverLibValFix/releases). This software is obsolete for fixing NVIDIA web driver issues.
 
 **Beware:** This software intentionally weakens the security of your Mac and may turn your machine into a fire-breathing dragon. You should not install it.
 
